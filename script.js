@@ -31,7 +31,7 @@ function showQuestion(){
 
 
     } else {
-        //acabaram as questões
+        finishQuiz()
     }
 }
 
@@ -44,4 +44,10 @@ function optionClickEvent(e) {
 
     currentQuestion++
     showQuestion()
+}
+
+function finishQuiz() {
+    document.querySelector('.scoreArea').style.display = 'block'
+    document.querySelector('.questionArea').style.display = 'none'
+    document.querySelector('.progress--bar').style.width = '100%'
 }

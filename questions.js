@@ -1,6 +1,6 @@
 let questions = [
     {
-        question: 'Em qual elemento HTML nós colocamos o javascript?',
+        question: 'In which HTML element do we put the javascript?',
         options: [
             'tag js',
             'tag script',
@@ -10,16 +10,16 @@ let questions = [
         answer: 1
     },
     {
-        question: 'Onde é o local certo de colocar o javascript?',
+        question: 'Where is the right place to put the javascript?',
         options: [
-            'Na tag body',
-            'Na tag head',
-            'Tanto na tag body quanto a head estão corretas'
+            'In the body tag',
+            'In the head tag',
+            'Both the body tag and the head tag are correct'
         ],
         answer: 2
     },
     {
-        question: 'Qual a sintaxe correta para adicionar um arquivo javascript externo na tag script?',
+        question: 'What is the correct syntax to add an external javascript file in the script tag?',
         options: [
             'name="xxx.js"',
             'src="xxx.js"',
@@ -28,25 +28,25 @@ let questions = [
         answer: 1
     },
     {
-        question: 'Um arquivo javascript externo precisa ter a tag script',
+        question: 'An external javascript file must have the script tag',
         options: [
-            'Verdade',
-            'Falso'
+            'True',
+            'False'
         ],
         answer: 1
     },
     {
-        question: 'Como escrever um "Olá Mundo" em um alertbox?',
+        question: 'How to write a "Hello World" in an alertbox?',
         options: [
-            'alertBox("Olá Mundo")',
-            'msgBox("Olá Mundo")',
-            'msg("Olá Mundo")',
-            'alert("Olá Mundo")'
+            'alertBox("Hello World")',
+            'msgBox("Hello World")',
+            'msg("Hello World")',
+            'alert("Hello World")'
         ],
         answer: 3
     },
     {
-        question: 'Como você cria uma função no Javascript?',
+        question: 'How do you create a function in Javascript?',
         options: [
             'function:minhaFuncao()',
             'function = minhaFuncao()',
@@ -55,7 +55,7 @@ let questions = [
         answer: 2
     },
     {
-        question: 'Como chamar uma função chamada "minhaFuncao"?',
+        question: 'How to call a function called "myFunction"?',
         options: [
             'call minhaFuncao',
             'call function minhaFuncao',
@@ -64,7 +64,7 @@ let questions = [
         answer: 2
     },
     {
-        question: 'Como escrever uma condicional IF no Javascript?',
+        question: 'How to write an IF conditional in Javascript?',
         options: [
             'if i = 5',
             'if i == 5 then',
@@ -74,7 +74,7 @@ let questions = [
         answer: 2
     },
     {
-        question: 'Como fazer um if que executa um código caso "i" for diferente de 5',
+        question: 'How to make an if that executes code if "i" is different from 5',
         options: [
             'if (i != 5)',
             'if (i <> 5)',
@@ -84,7 +84,7 @@ let questions = [
         answer: 0
     },
     {
-        question: 'Como o loop while começa?',
+        question: 'How does the while loop start?',
         options: [
             'while (i <= 10)',
             'while (i <= 10; i++)',
